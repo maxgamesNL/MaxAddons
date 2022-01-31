@@ -15,6 +15,13 @@ public class PlayerInteractEvent {
             if(e.world.isRemote){
                 if(e.entityPlayer.getCurrentEquippedItem().getItem().getRegistryName().equals("minecraft:golden_pickaxe")){
                     if(e.world.getBlockState(e.pos).getBlock().equals(Blocks.chest)){return;}
+                    if(e.world.getBlockState(e.pos).getBlock().equals(Blocks.lever)){return;}
+                    if(e.world.getBlockState(e.pos).getBlock().equals(Blocks.redstone_torch)){return;}
+                    if(e.world.getBlockState(e.pos).getBlock().equals(Blocks.stone_button)){return;}
+                    if(e.world.getBlockState(e.pos).getBlock().equals(Blocks.wooden_button)){return;}
+                    if(e.world.getBlockState(e.pos).getBlock().equals(Blocks.skull)){return;}
+                    if(e.world.getBlockState(e.pos).getBlock().equals(Blocks.stained_hardened_clay)){return;}
+                    if(e.world.getBlockState(e.pos).getBlock().equals(Blocks.coal_block)){return;}
 
                     e.world.setBlockToAir(e.pos);
                     e.setCanceled(true);

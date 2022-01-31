@@ -1,5 +1,6 @@
 build
 run
+.gradle
 *.iml
 *.ipr
 *.iws
