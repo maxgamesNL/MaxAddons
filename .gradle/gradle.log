@@ -9,226 +9,32 @@ See https://gist.github.com/TheCurle/fe7ad3ede188cbdd15c235cc75d52d4a for more i
 :compileApiJava UP-TO-DATE
 :processApiResources UP-TO-DATE
 :apiClasses UP-TO-DATE
-:sourceMainJava
+:sourceMainJava UP-TO-DATE
 :compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
 1 warning
 
-:processResources UP-TO-DATE
+:processResources
 :classes
 :jar
+:sourceTestJava UP-TO-DATE
+:compileTestJava UP-TO-DATE
+:processTestResources UP-TO-DATE
+:testClasses UP-TO-DATE
+:test UP-TO-DATE
+:extractMcpData SKIPPED
+:extractMcpMappings SKIPPED
 :getVersionJson
-:extractNatives SKIPPED
 :extractUserdev UP-TO-DATE
-:getAssetIndex UP-TO-DATE
-:getAssets
-:makeStart
-:runClient
-2022-01-31 17:37:44,774 WARN Unable to instantiate org.fusesource.jansi.WindowsAnsiOutputStream
-2022-01-31 17:37:44,776 WARN Unable to instantiate org.fusesource.jansi.WindowsAnsiOutputStream
-[17:37:44] [main/INFO] [GradleStart]: Extra: []
-[17:37:44] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/maxpa/.gradle/caches/minecraft/assets, --assetIndex, 1.8, --accessToken{REDACTED}, --version, 1.8.9, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
-[17:37:44] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[17:37:44] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[17:37:44] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
-[17:37:44] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
-[17:37:44] [main/INFO] [FML]: Forge Mod Loader version 11.15.1.2318 for Minecraft 1.8.9 loading
-[17:37:44] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_322, running on Windows 10:amd64:10.0, installed at C:\Program Files\Eclipse Adoptium\jdk-8.0.322.6-hotspot\jre
-[17:37:44] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
-[17:37:44] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
-[17:37:44] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
-[17:37:44] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
-[17:37:44] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[17:37:44] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[17:37:44] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[17:37:44] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[17:37:44] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[17:37:44] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[17:37:44] [main/ERROR] [FML]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
-[17:37:45] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
-[17:37:45] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[17:37:45] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[17:37:45] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[17:37:45] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[17:37:45] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[17:37:45] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
-2022-01-31 17:37:45,633 WARN Unable to instantiate org.fusesource.jansi.WindowsAnsiOutputStream
-2022-01-31 17:37:45,649 WARN Unable to instantiate org.fusesource.jansi.WindowsAnsiOutputStream
-2022-01-31 17:37:45,650 WARN Unable to instantiate org.fusesource.jansi.WindowsAnsiOutputStream
-[17:37:45] [Client thread/INFO]: Setting user: Player265
-[17:37:46] [Client thread/INFO]: LWJGL Version: 2.9.4
-[17:37:47] [Client thread/WARN] [FML]: =============================================================
-[17:37:47] [Client thread/WARN] [FML]: MOD HAS DIRECT REFERENCE System.exit() THIS IS NOT ALLOWED REROUTING TO FML!
-[17:37:47] [Client thread/WARN] [FML]: Offendor: com/sun/jna/Native.main([Ljava/lang/String;)V
-[17:37:47] [Client thread/WARN] [FML]: Use FMLCommonHandler.exitJava instead
-[17:37:47] [Client thread/WARN] [FML]: =============================================================
-[17:37:47] [Client thread/INFO] [STDOUT]: [net.minecraftforge.fml.client.SplashProgress:start:246]: ---- Minecraft Crash Report ----
-// Don't be sad, have a hug! <3
-
-Time: 1/31/22 5:37 PM
-Description: Loading screen debug info
-
-This is just a prompt for computer specs to be printed. THIS IS NOT A ERROR
-
-
-A detailed walkthrough of the error, its code path and all known details is as follows:
----------------------------------------------------------------------------------------
-
--- System Details --
-Details:
-	Minecraft Version: 1.8.9
-	Operating System: Windows 10 (amd64) version 10.0
-	Java Version: 1.8.0_322, Temurin
-	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Temurin
-	Memory: 528761904 bytes (504 MB) / 845152256 bytes (806 MB) up to 7618953216 bytes (7266 MB)
-	JVM Flags: 0 total; 
-	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
-	FML: 
-	Loaded coremods (and transformers): 
-	GL info: ' Vendor: 'ATI Technologies Inc.' Version: '4.6.14802 Compatibility Profile Context 22.1.1 30.0.14023.1009' Renderer: 'Radeon RX 580 Series'
-[17:37:47] [Client thread/INFO] [FML]: MinecraftForge v11.15.1.2318 Initialized
-[17:37:47] [Client thread/INFO] [FML]: Replaced 229 ore recipies
-[17:37:47] [Client thread/INFO] [FML]: Found 0 mods from the command line. Injecting into mod discoverer
-[17:37:47] [Client thread/INFO] [FML]: Searching E:\progameren\MC\mods\forge\MaxAddons\MaxAddons\run\mods for mods
-[17:37:48] [Client thread/INFO] [FML]: Forge Mod Loader has identified 4 mods to load
-[17:37:48] [Client thread/INFO] [FML]: Attempting connection with missing mods [mcp, FML, Forge, maxaddons] at CLIENT
-[17:37:48] [Client thread/INFO] [FML]: Attempting connection with missing mods [mcp, FML, Forge, maxaddons] at SERVER
-[17:37:48] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Max Addons
-[17:37:48] [Client thread/INFO] [FML]: Processing ObjectHolder annotations
-[17:37:48] [Client thread/INFO] [FML]: Found 384 ObjectHolder annotations
-[17:37:48] [Client thread/INFO] [FML]: Identifying ItemStackHolder annotations
-[17:37:48] [Client thread/INFO] [FML]: Found 0 ItemStackHolder annotations
-[17:37:48] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
-[17:37:48] [Forge Version Check/INFO] [ForgeVersionCheck]: [Forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[17:37:48] [Client thread/INFO] [FML]: Applying holder lookups
-[17:37:48] [Client thread/INFO] [FML]: Holder lookups applied
-[17:37:48] [Client thread/INFO] [FML]: Injecting itemstacks
-[17:37:48] [Client thread/INFO] [FML]: Itemstack injection complete
-[17:37:48] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[17:37:48] [Thread-9/INFO]: Initializing LWJGL OpenAL
-[17:37:48] [Thread-9/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[17:37:49] [Thread-9/INFO]: OpenAL initialized.
-[17:37:49] [Sound Library Loader/INFO]: Sound engine started
-[17:37:51] [Client thread/INFO] [FML]: Max texture size: 16384
-[17:37:51] [Client thread/INFO]: Created: 16x16 textures-atlas
-[17:37:52] [Client thread/INFO] [FML]: Injecting itemstacks
-[17:37:52] [Client thread/INFO] [FML]: Itemstack injection complete
-[17:37:52] [Client thread/INFO] [FML]: Forge Mod Loader has successfully loaded 4 mods
-[17:37:52] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Max Addons
-[17:37:52] [Client thread/INFO]: SoundSystem shutting down...
-[17:37:52] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
-[17:37:52] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[17:37:53] [Thread-11/INFO]: Initializing LWJGL OpenAL
-[17:37:53] [Thread-11/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[17:37:53] [Thread-11/INFO]: OpenAL initialized.
-[17:37:53] [Sound Library Loader/INFO]: Sound engine started
-[17:37:55] [Client thread/INFO] [FML]: Max texture size: 16384
-[17:37:55] [Client thread/INFO]: Created: 512x512 textures-atlas
-[17:38:02] [Client thread/INFO]: Connecting to localhost, 25565
-[17:38:02] [Netty Client IO #1/INFO] [FML]: Aborting client handshake "VANILLA"
-[17:38:02] [Netty Client IO #1/INFO] [FML]: [Netty Client IO #1] Client side vanilla connection established
-[17:38:02] [Client thread/INFO]: [CHAT] Player265 joined the game
-[17:38:04] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:11]:  click
-[17:38:04] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:13]: right click
-[17:38:04] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:11]:  click
-[17:38:04] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:13]: right click
-[17:38:38] [Client thread/INFO]: [CHAT] Player265 drowned
-[17:38:43] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:11]:  click
-[17:38:43] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:13]: right click
-[17:38:45] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:11]:  click
-[17:38:45] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:13]: right click
-[17:38:45] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:11]:  click
-[17:38:45] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:13]: right click
-[17:38:45] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:11]:  click
-[17:38:45] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:13]: right click
-[17:38:45] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:11]:  click
-[17:38:45] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:13]: right click
-[17:38:45] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:11]:  click
-[17:38:45] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:13]: right click
-[17:38:46] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:11]:  click
-[17:38:46] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:13]: right click
-[17:38:46] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:11]:  click
-[17:38:46] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:13]: right click
-[17:38:46] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:11]:  click
-[17:38:46] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:13]: right click
-[19:09:55] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:11]:  click
-[19:09:55] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:13]: right click
-[19:10:06] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:11]:  click
-[19:10:06] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:11]:  click
-[19:10:06] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:11]:  click
-[19:10:10] [Client thread/INFO]: [CHAT] I'm sorry, but you do not have permission to perform this command. Please contact the server administrators if you believe that this is in error.
-[19:10:17] [Client thread/INFO]: [CHAT] [Server: Opped player265]
-[19:10:20] [Client thread/INFO]: [CHAT] Your game mode has been updated
-[19:10:20] [Client thread/INFO]: [CHAT] Player265 has just earned the achievement [Taking Inventory]
-[19:10:29] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:11]:  click
-[19:10:29] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:13]: right click
-[19:10:30] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:11]:  click
-[19:10:30] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:13]: right click
-[19:10:30] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:11]:  click
-[19:10:30] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:13]: right click
-[19:10:48] [Client thread/INFO]: [CHAT] Given [Golden Pickaxe] * 60 to Player265
-[19:10:49] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:11]:  click
-[19:10:49] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:13]: right click
-[19:10:53] [Client thread/INFO]: [CHAT] Given [Golden Pickaxe] * 60 to Player265
-[19:10:54] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:11]:  click
-[19:10:54] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:13]: right click
-[19:10:57] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:11]:  click
-[19:10:57] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:13]: right click
-[19:10:57] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:11]:  click
-[19:10:57] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:11]:  click
-[19:10:57] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:13]: right click
-[19:10:57] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:11]:  click
-[19:10:57] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:13]: right click
-[19:10:58] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:11]:  click
-[19:10:58] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:13]: right click
-[19:11:01] [Client thread/INFO]: [CHAT] Given [Golden Pickaxe] * 60 to Player265
-[19:11:01] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:11]:  click
-[19:11:01] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:13]: right click
-[19:11:09] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:11]:  click
-[19:11:09] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:13]: right click
-[19:11:09] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:11]:  click
-[19:11:09] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:13]: right click
-[19:11:10] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:11]:  click
-[19:11:10] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:13]: right click
-[19:11:10] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:11]:  click
-[19:11:11] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:11]:  click
-[19:11:11] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:13]: right click
-[19:11:11] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:11]:  click
-[19:11:11] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:11]:  click
-[19:11:11] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:13]: right click
-[19:11:13] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:11]:  click
-[19:11:13] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:13]: right click
-[19:11:13] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:11]:  click
-[19:11:13] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:11]:  click
-[19:11:13] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:13]: right click
-[19:11:13] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:11]:  click
-[19:11:14] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:11]:  click
-[19:11:14] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:13]: right click
-[19:11:14] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:11]:  click
-[19:11:14] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:11]:  click
-[19:11:14] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:13]: right click
-[19:11:14] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:11]:  click
-[19:11:16] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:11]:  click
-[19:11:16] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:13]: right click
-[19:11:16] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:11]:  click
-[19:11:16] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:13]: right click
-[19:11:17] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:11]:  click
-[19:11:17] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:13]: right click
-[19:11:17] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:11]:  click
-[19:11:17] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:13]: right click
-[19:11:18] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:11]:  click
-[19:11:18] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:13]: right click
-[19:11:20] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:11]:  click
-[19:11:20] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:13]: right click
-[19:11:20] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:11]:  click
-[19:11:20] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:13]: right click
-[19:11:20] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:11]:  click
-[19:11:20] [Client thread/INFO] [STDOUT]: [io.github.maxgamesNL.maxAddons.modules.PlayerInteractEvent:rightClick:13]: right click
-[19:11:27] [Client thread/INFO] [FML]: Applying holder lookups
-[19:11:27] [Client thread/INFO] [FML]: Holder lookups applied
-[19:11:32] [Client thread/INFO]: Stopping!
-[19:11:32] [Client thread/INFO]: SoundSystem shutting down...
-[19:11:33] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+:genSrgs SKIPPED
+:reobfJar
+:extractRangemapReplacedMain
+E:\progameren\MC\mods\forge\MaxAddons\MaxAddons\build\sources\main\java
+:retromapReplacedMain UP-TO-DATE
+:sourceJar
+:assemble
+:check UP-TO-DATE
+:build
 
 BUILD SUCCESSFUL
 
-Total time: 1 hrs 33 mins 51.958 secs
+Total time: 1.595 secs
