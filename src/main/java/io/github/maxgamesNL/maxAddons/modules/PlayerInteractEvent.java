@@ -14,7 +14,7 @@ public class PlayerInteractEvent {
             if(e.entityPlayer.getCurrentEquippedItem() == null){return;}
             if(e.world.isRemote){
                 if(e.entityPlayer.getCurrentEquippedItem().getItem().getRegistryName().equals("minecraft:golden_pickaxe")){
-                    if(e.world.getBlockState(e.pos).equals(Blocks.chest)){return;}
+                    if(e.world.getBlockState(e.pos).getBlock().equals(Blocks.chest)){return;}
                     e.world.setBlockToAir(e.pos);
                     e.setCanceled(true);
                 }

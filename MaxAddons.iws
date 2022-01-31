@@ -4,51 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c05dc9b1-7403-453c-a6a0-3c91ff83e59f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/MaxAddons.api.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MaxAddons.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MaxAddons.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2022-01-31-1.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/7beaed24-0a62-3f97-b968-4d6f3b3f19c7.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/New World/stats/7beaed24-0a62-3f97-b968-4d6f3b3f19c7.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaxAddons.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MaxAddons.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaxAddons.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/MaxAddons.ipr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/main/io/github/maxgamesNL/skyBlockBest/modules/PlayerInteractEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/io/github/maxgamesNL/skyBlockBest/modules/PlayerInteractEvent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/skyblockbest-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/skyblockbest-1.0.jar" afterDir="false" />
+    <list default="true" id="c05dc9b1-7403-453c-a6a0-3c91ff83e59f" name="Changes" comment="Cool stuff(Base setup) and changed name to maxaddons">
+      <change afterPath="$PROJECT_DIR$/run/logs/2022-01-31-2.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2022-01-31-3.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/3.0/taskArtifacts/cache.properties.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.0/taskArtifacts/cache.properties.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/3.0/taskArtifacts/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.0/taskArtifacts/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/3.0/taskArtifacts/fileSnapshots.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.0/taskArtifacts/fileSnapshots.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/3.0/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.0/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/3.0/taskArtifacts/taskArtifacts.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/3.0/taskArtifacts/taskArtifacts.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/gradle.log" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/gradle.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaxAddons.iws" beforeDir="false" afterPath="$PROJECT_DIR$/MaxAddons.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/io/github/maxgamesNL/skyBlockBest/SkyBlockBest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/io/github/maxgamesNL/skyBlockBest/modules/PlayerInteractEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/io/github/maxgamesNL/skyBlockBest/proxy/ClientProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/io/github/maxgamesNL/skyBlockBest/proxy/CommonProxy.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/resources/main/mcmod.info" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/mcmod.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/sources/main/java/io/github/maxgamesNL/skyBlockBest/modules/PlayerInteractEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/sources/main/java/io/github/maxgamesNL/skyBlockBest/modules/PlayerInteractEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/makeStart/extracted/GradleStart.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/makeStart/extracted/GradleStart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/makeStart/extracted/GradleStartServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/makeStart/extracted/GradleStartServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/makeStart/extracted/net/minecraftforge/gradle/GradleForgeHacks.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/makeStart/extracted/net/minecraftforge/gradle/GradleForgeHacks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/makeStart/extracted/net/minecraftforge/gradle/GradleStartCommon.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/makeStart/extracted/net/minecraftforge/gradle/GradleStartCommon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/makeStart/extracted/net/minecraftforge/gradle/tweakers/AccessTransformerTweaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/makeStart/extracted/net/minecraftforge/gradle/tweakers/AccessTransformerTweaker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/makeStart/extracted/net/minecraftforge/gradle/tweakers/CoremodTweaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/makeStart/extracted/net/minecraftforge/gradle/tweakers/CoremodTweaker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sources/main/java/io/github/maxgamesNL/skyBlockBest/SkyBlockBest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sources/main/java/io/github/maxgamesNL/skyBlockBest/modules/PlayerInteractEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sources/main/java/io/github/maxgamesNL/skyBlockBest/proxy/ClientProxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sources/main/java/io/github/maxgamesNL/skyBlockBest/proxy/CommonProxy.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/run/config/splash.properties" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/splash.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/crash-reports/crash-2022-01-30_21.31.11-client.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/crash-reports/crash-2022-01-30_21.31.11-client.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/crash-reports/crash-2022-01-30_21.32.12-client.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/crash-reports/crash-2022-01-30_21.32.12-client.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/crash-reports/crash-2022-01-30_21.33.19-client.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/crash-reports/crash-2022-01-30_21.33.19-client.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/crash-reports/crash-2022-01-30_21.34.16-client.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/crash-reports/crash-2022-01-30_21.34.16-client.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/fml-client-1.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/fml-client-1.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/fml-client-2.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/fml-client-2.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/fml-client-3.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/fml-client-3.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/fml-client-latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/fml-client-latest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/fml-junk-earlystartup.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/fml-junk-earlystartup.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/level.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/level.dat_old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.-1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.-1.1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.-1.1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.0.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.0.1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.0.1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/session.lock" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/session.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/options.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/usernamecache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usernamecache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/maxgamesNL/skyBlockBest/SkyBlockBest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/maxgamesNL/maxAddons/MaxAddons.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/maxgamesNL/skyBlockBest/modules/PlayerInteractEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/maxgamesNL/maxAddons/modules/PlayerInteractEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/maxgamesNL/skyBlockBest/proxy/ClientProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/maxgamesNL/maxAddons/proxy/ClientProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/maxgamesNL/skyBlockBest/proxy/CommonProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/maxgamesNL/maxAddons/proxy/CommonProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mcmod.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mcmod.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/maxgamesNL/maxAddons/modules/PlayerInteractEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/maxgamesNL/maxAddons/modules/PlayerInteractEvent.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,8 +157,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1643641499107</updated>
-      <workItem from="1643641500292" duration="1555000" />
+      <workItem from="1643641500292" duration="3636000" />
     </task>
+    <task id="LOCAL-00001" summary="Cool stuff(Base setup) and changed name to maxaddons">
+      <created>1643644004917</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1643644004917</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,5 +185,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Cool stuff(Base setup) and changed name to maxaddons" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cool stuff(Base setup) and changed name to maxaddons" />
   </component>
 </project>
