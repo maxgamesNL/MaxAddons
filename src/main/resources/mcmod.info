@@ -1,7 +1,7 @@
 [
 {
-  "modid": "skyblockbest",
-  "name": "skyblock best",
+  "modid": "maxaddons",
+  "name": "Max Addons",
   "description": "Example placeholder mod.",
   "version": "${version}",
   "mcversion": "${mcversion}",

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c05dc9b1-7403-453c-a6a0-3c91ff83e59f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/MaxAddons.api.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MaxAddons.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MaxAddons.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2022-01-31-1.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/7beaed24-0a62-3f97-b968-4d6f3b3f19c7.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/saves/New World/stats/7beaed24-0a62-3f97-b968-4d6f3b3f19c7.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaxAddons.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MaxAddons.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaxAddons.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/MaxAddons.ipr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/main/io/github/maxgamesNL/skyBlockBest/modules/PlayerInteractEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/io/github/maxgamesNL/skyBlockBest/modules/PlayerInteractEvent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/skyblockbest-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/skyblockbest-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/mcmod.info" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/mcmod.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sources/main/java/io/github/maxgamesNL/skyBlockBest/modules/PlayerInteractEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/sources/main/java/io/github/maxgamesNL/skyBlockBest/modules/PlayerInteractEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/makeStart/extracted/GradleStart.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/makeStart/extracted/GradleStart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/makeStart/extracted/GradleStartServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/makeStart/extracted/GradleStartServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/makeStart/extracted/net/minecraftforge/gradle/GradleForgeHacks.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/makeStart/extracted/net/minecraftforge/gradle/GradleForgeHacks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/makeStart/extracted/net/minecraftforge/gradle/GradleStartCommon.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/makeStart/extracted/net/minecraftforge/gradle/GradleStartCommon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/makeStart/extracted/net/minecraftforge/gradle/tweakers/AccessTransformerTweaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/makeStart/extracted/net/minecraftforge/gradle/tweakers/AccessTransformerTweaker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/makeStart/extracted/net/minecraftforge/gradle/tweakers/CoremodTweaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/makeStart/extracted/net/minecraftforge/gradle/tweakers/CoremodTweaker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/config/splash.properties" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/splash.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/crash-reports/crash-2022-01-30_21.31.11-client.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/crash-reports/crash-2022-01-30_21.31.11-client.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/crash-reports/crash-2022-01-30_21.32.12-client.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/crash-reports/crash-2022-01-30_21.32.12-client.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/crash-reports/crash-2022-01-30_21.33.19-client.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/crash-reports/crash-2022-01-30_21.33.19-client.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/crash-reports/crash-2022-01-30_21.34.16-client.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/crash-reports/crash-2022-01-30_21.34.16-client.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/fml-client-1.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/fml-client-1.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/fml-client-2.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/fml-client-2.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/fml-client-3.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/fml-client-3.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/fml-client-latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/fml-client-latest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/fml-junk-earlystartup.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/fml-junk-earlystartup.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/level.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/level.dat_old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.-1.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.-1.1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.-1.1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.0.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.0.1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.0.1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/session.lock" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/session.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/usernamecache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usernamecache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/maxgamesNL/skyBlockBest/SkyBlockBest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/maxgamesNL/maxAddons/MaxAddons.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/maxgamesNL/skyBlockBest/modules/PlayerInteractEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/maxgamesNL/maxAddons/modules/PlayerInteractEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/maxgamesNL/skyBlockBest/proxy/ClientProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/maxgamesNL/maxAddons/proxy/ClientProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/maxgamesNL/skyBlockBest/proxy/CommonProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/maxgamesNL/maxAddons/proxy/CommonProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mcmod.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mcmod.info" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="MaxAddons" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="MaxAddons" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="MaxAddons" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="forgegradle" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="24T4yn9ApACqVvaGF9NBwza1Vpn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunManager" selected="Shell Script.RunClient">
+    <configuration name="MaxAddons [runClient]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="runClient" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="RunClient" type="ShConfigurationType">
+      <option name="SCRIPT_TEXT" value="./gradlew runClient" />
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="EXECUTE_IN_TERMINAL" value="true" />
+      <option name="EXECUTE_SCRIPT_FILE" value="false" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Gradle.MaxAddons [runClient]" />
+      <item itemvalue="Shell Script.RunClient" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.MaxAddons [runClient]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c05dc9b1-7403-453c-a6a0-3c91ff83e59f" name="Changes" comment="" />
+      <created>1643641499107</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1643641499107</updated>
+      <workItem from="1643641500292" duration="1555000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
