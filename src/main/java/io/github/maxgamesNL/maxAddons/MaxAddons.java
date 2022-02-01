@@ -1,6 +1,9 @@
 package io.github.maxgamesNL.maxAddons;
 
+import io.github.maxgamesNL.maxAddons.commands.ToggleCommand;
+import io.github.maxgamesNL.maxAddons.modules.ModuleManager;
 import io.github.maxgamesNL.maxAddons.proxy.CommonProxy;
+import net.minecraftforge.client.ClientCommandHandler;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -23,13 +26,16 @@ public class MaxAddons
 
     @Mod.Instance(MaxAddons.MODID)
     public static MaxAddons instance;
+    public static ModuleManager moduleManager;
 
     @Mod.EventHandler
     public void init(FMLInitializationEvent event)
     {
+        moduleManager = new ModuleManager();
         // some example code
         proxy.registerRenders();
         proxy.registerEvents();
+        ClientCommandHandler.instance.registerCommand(new ToggleCommand());
     }
 
 }
