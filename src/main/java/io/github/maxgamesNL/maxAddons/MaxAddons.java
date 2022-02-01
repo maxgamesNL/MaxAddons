@@ -1,5 +1,6 @@
 package io.github.maxgamesNL.maxAddons;
 
+import io.github.maxgamesNL.maxAddons.commands.MaxAddonsCommand;
 import io.github.maxgamesNL.maxAddons.commands.ToggleCommand;
 import io.github.maxgamesNL.maxAddons.modules.ModuleManager;
 import io.github.maxgamesNL.maxAddons.proxy.CommonProxy;
@@ -36,6 +37,7 @@ public class MaxAddons
         proxy.registerRenders();
         proxy.registerEvents();
         ClientCommandHandler.instance.registerCommand(new ToggleCommand());
+        ClientCommandHandler.instance.registerCommand(new MaxAddonsCommand());
     }
 
 }
