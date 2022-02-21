@@ -29,7 +29,7 @@ public class MaxAddonsCommand extends CommandBase {
         sender.addChatMessage(new ChatComponentText("maxgamesNL.github.io"));
         sender.addChatMessage(new ChatComponentText("A list of available modules:"));
         sender.addChatMessage(new ChatComponentText("- EZstonk, Makes ghost blocks for you by right clicking with a golden pick(or any variant of it like stonk)"));
-
+        sender.addChatMessage(new ChatComponentText("- AutoLavaFish, AutoLavaFish is a mod that makes you fish in lava"));
         sender.addChatMessage(new ChatComponentText("A list of commands:"));
         sender.addChatMessage(new ChatComponentText("- /toggle <module>, toggles a module on or off"));
     }

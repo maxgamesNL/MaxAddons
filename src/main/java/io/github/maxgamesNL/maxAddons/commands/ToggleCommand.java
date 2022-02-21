@@ -26,7 +26,11 @@ public class ToggleCommand extends CommandBase {
             String mod = args[0];
             if(mod.equalsIgnoreCase("ezstonk")) {
                 MaxAddons.moduleManager.StonkToggled = !MaxAddons.moduleManager.StonkToggled;
-                sender.addChatMessage(new ChatComponentText("Stonk toggled to " + MaxAddons.moduleManager.StonkToggled));
+                sender.addChatMessage(new ChatComponentText("EZstonk toggled to " + MaxAddons.moduleManager.StonkToggled));
+            }
+            if(mod.equalsIgnoreCase("AutoLavaFish")){
+                MaxAddons.moduleManager.AutoLavaFishToggled = !MaxAddons.moduleManager.AutoLavaFishToggled;
+                sender.addChatMessage(new ChatComponentText("AutoLavaFish toggled to " + MaxAddons.moduleManager.AutoLavaFishToggled));
             }
 
         }
