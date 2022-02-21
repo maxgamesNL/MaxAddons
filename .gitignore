@@ -8,3 +8,4 @@ run
 *.tmp
 *.zip
 *.zip.iml
+*.bin
