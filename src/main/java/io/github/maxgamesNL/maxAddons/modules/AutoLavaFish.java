@@ -2,6 +2,7 @@ package io.github.maxgamesNL.maxAddons.modules;
 
 import io.github.maxgamesNL.maxAddons.MaxAddons;
 import net.minecraft.client.Minecraft;
+import net.minecraft.client.settings.KeyBinding;
 import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
@@ -14,6 +15,9 @@ import java.util.Collections;
 
 public class AutoLavaFish {
 
+    Minecraft mc = Minecraft.getMinecraft();
+    int tickCounter = 0;
+
     @SubscribeEvent
     public void onTick(net.minecraftforge.fml.common.gameevent.TickEvent.PlayerTickEvent e) {
         if(!e.side.isClient()) return;
@@ -25,16 +29,28 @@ public class AutoLavaFish {
         Collections.addAll(inv, e.player.inventory.mainInventory);
         for (ItemStack item : inv) {
             if(item == null) {
-                System.out.println("item is null");
                 continue;
             }
-            System.out.println(item.getUnlocalizedName() + " " + inv.indexOf(item));
             if (item.getUnlocalizedName().equals("item.fishingRod")) {
-                if (e.player.getHeldItem().equals(Items.fishing_rod)) {
-                    continue;
+                if(inv.indexOf(item) < 9) {
+                    e.player.inventory.currentItem = inv.indexOf(item);
                 }
-                System.out.println("fishing rod found " + inv.indexOf(item));
-                e.player.inventory.currentItem = inv.indexOf(item);
+
+                if (e.player.getHeldItem().getUnlocalizedName().equals("item.fishingRod")) {
+                    if(e.player.fishEntity == null) {
+                        if (tickCounter >= 1) {
+                            if(tickCounter >= 10) {
+                                tickCounter = 0;
+                            }else {
+                                tickCounter++;
+                            }
+                        }else {
+                            tickCounter++;
+                            mc.playerController.sendUseItem(e.player, e.player.worldObj, item);
+                        }
+                    }
+
+                }
 
             }
         }
