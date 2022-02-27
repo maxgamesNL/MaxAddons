@@ -4,4 +4,5 @@ public class ModuleManager {
 
     public boolean StonkToggled = true;
     public boolean AutoLavaFishToggled = false;
+    public boolean CoordsToggled = false;
 }
